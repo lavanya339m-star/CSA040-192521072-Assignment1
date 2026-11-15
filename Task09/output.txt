@@ -1,0 +1,13 @@
+Image size: 524288000 bytes
+Interrupt-driven I/O:
+Number of interrupts: 131072000
+CPU time: 262.144 seconds
+
+DMA (4 KB blocks):
+Number of interrupts: 128000
+CPU time: 0.256 seconds
+
+DMA (one transfer):
+Number of interrupts: 1
+
+Reduction: 1024 times fewer interrupts
