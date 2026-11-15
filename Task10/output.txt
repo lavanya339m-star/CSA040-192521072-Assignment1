@@ -1,0 +1,50 @@
+===== TASK 10: PERFORMANCE BENCHMARKING =====
+Compiling programs...
+Creating 100 MB test file...
+
+===== SYSTEM CALL COMPARISON =====
+
+Buffer size: 64 bytes
+Copy completed using rw mode with buffer size 64 bytes
+
+Buffer size: 512 bytes
+Copy completed using rw mode with buffer size 512 bytes
+
+Buffer size: 4096 bytes
+Copy completed using rw mode with buffer size 4096 bytes
+
+Buffer size: 65536 bytes
+Copy completed using rw mode with buffer size 65536 bytes
+
+Buffer size: 1048576 bytes
+Copy completed using rw mode with buffer size 1048576 bytes
+
+===== TIME COMPARISON =====
+
+read/write buffer: 64 bytes
+Copy completed using rw mode with buffer size 64 bytes
+
+read/write buffer: 512 bytes
+Copy completed using rw mode with buffer size 512 bytes
+
+read/write buffer: 4096 bytes
+Copy completed using rw mode with buffer size 4096 bytes
+
+read/write buffer: 65536 bytes
+Copy completed using rw mode with buffer size 65536 bytes
+
+read/write buffer: 1048576 bytes
+Copy completed using rw mode with buffer size 1048576 bytes
+
+===== STDIO COMPARISON =====
+Copy completed using stdio mode with buffer size 4096 bytes
+
+===== MMAP COMPARISON =====
+Copy completed using mmap mode with buffer size 4096 bytes
+
+===== PROCESS VS THREAD =====
+1000 processes (fork + waitpid): 0.364679 seconds
+1000 threads (create + join):    0.114700 seconds
+Process/thread ratio: 3.18 times
+
+===== TASK 10 COMPLETED =====
